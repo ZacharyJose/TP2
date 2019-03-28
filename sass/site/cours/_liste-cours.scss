@@ -77,5 +77,23 @@ body {
 
     }
 
+    .entry-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: scale(1);
+        transition-duration: 1s;
+    }
+    
+    .entry-content:hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: scale(1.1);
+        transition-duration: 1s;
+    }
+
 
 
