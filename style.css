@@ -776,6 +776,10 @@ h3, h4 {
   font-size: .4em;
 }
 
+.coursImage {
+  padding: 20px;
+}
+
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
 }
@@ -791,7 +795,7 @@ body {
 }
 
 .menuaccueil:hover {
-  color: blue;
+  color: #2C596F;
 }
 
 .main-navigation {
@@ -799,6 +803,28 @@ body {
   top: 0;
   right: 0;
   margin: 1.5em;
+}
+
+/*Supprime les widgets*/
+.entry-meta {
+  display: none;
+}
+
+.entry-footer {
+  display: none;
+}
+
+.widget-area {
+  display: none;
+}
+
+.imprint {
+  display: none;
+}
+
+.site-info {
+  color: white;
+  font-size: 100px;
 }
 
 @-webkit-keyframes anim1 {

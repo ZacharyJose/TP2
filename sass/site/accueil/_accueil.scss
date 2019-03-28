@@ -12,11 +12,13 @@ body {
 .menuaccueil {
 
    color:white; 
+   
 }
 
 .menuaccueil:hover {
 
-    color:blue; 
+    color:#2C596F; 
+   
  }
 
  .main-navigation {
@@ -24,4 +26,26 @@ body {
     top: 0;
     right: 0;
     margin: 1.5em;
+}
+
+/*Supprime les widgets*/
+.entry-meta {
+    display: none;
+}
+
+.entry-footer {
+    display: none;
+}
+
+.widget-area {
+    display: none;
+}
+
+.imprint {
+    display: none;
+}
+
+.site-info {
+    color: white;
+    font-size: 100px;
 }
