@@ -718,6 +718,10 @@ body.page .main-navigation {
   margin-bottom: 0;
 }
 
+body {
+  background-color: #0f4056;
+}
+
 .liste-cours {
   display: -ms-grid;
   display: grid;
@@ -726,57 +730,49 @@ body.page .main-navigation {
   grid-gap: 10px;
   margin: 2% 2% 0% 15%;
   font-size: 1.5em;
-  /*.session-1 { background-color: #1c7742; color : #fff; }
+}
+
+/*.session-1 { background-color: #1c7742; color : #fff; }
     .session-2 { background-color: #d3a145; color : #aaa;}
     .session-3 { background-color: #2f2f97; color : #fff;}
     .session-4 { background-color: #948b36; color : #fff;}
     .session-5 { background-color: #97173d; color : #fff;}
     .session-6 { background-color: #251b04; color : #fff;}*/
-}
-
-.liste-cours h3, .liste-cours h4 {
+h3, h4 {
   padding: 5px;
 }
 
 @media only screen and (min-width: 600px) {
-  .liste-cours {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    font-size: 1.3em;
-  }
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  font-size: 1.3em;
 }
 
 @media only screen and (min-width: 768px) {
-  .liste-cours {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    font-size: 1em;
-  }
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  font-size: 1em;
 }
 
 @media only screen and (min-width: 1168px) {
-  .liste-cours {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-  }
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }
 
 @media only screen and (min-width: 1379px) {
-  .liste-cours {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-  }
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
 }
 
-.liste-cours .entry-title h3 {
+.entry-title h3 {
   font-size: .5em;
 }
 
-.liste-cours .entry-title h4 {
+.entry-title h4 {
   font-size: .4em;
 }
 
@@ -785,8 +781,24 @@ body.page .main-navigation {
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#53788A));
-  background-image: linear-gradient(white, #53788A);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#174960), to(#53788A));
+  background-image: linear-gradient(#174960, #53788A);
+  text-align: center;
+}
+
+.menuaccueil {
+  color: white;
+}
+
+.menuaccueil:hover {
+  color: blue;
+}
+
+.main-navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1.5em;
 }
 
 @-webkit-keyframes anim1 {
