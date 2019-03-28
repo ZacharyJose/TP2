@@ -780,6 +780,15 @@ h3, h4 {
   padding: 20px;
 }
 
+.wp-block-gallery {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
 }
@@ -825,6 +834,22 @@ body {
 .site-info {
   color: white;
   font-size: 100px;
+}
+
+.entry-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @-webkit-keyframes anim1 {

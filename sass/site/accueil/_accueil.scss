@@ -49,3 +49,10 @@ body {
     color: white;
     font-size: 100px;
 }
+
+.entry-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
