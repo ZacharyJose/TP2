@@ -249,8 +249,13 @@
 	 * :focus-within needs its own selector so other similar
 	 * selectors don’t get ignored if a browser doesn’t recognize it
 	 */
-	.main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu {
+	ul.sub-menu.hidden-links {
 
+		background-color: #570000;
+	}
+
+
+	.main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu {
 		display: block;
 		left: 0;
 		margin-top: 0;
@@ -281,7 +286,7 @@
 			width: 100%;
 			display: table;
 			position: absolute;
-
+			background-color: darkred;
 			@include media(tablet) {
 				right: 0;
 				left: auto;
