@@ -916,6 +916,21 @@ body {
   font-size: 100px;
 }
 
+.wp-block-media-text__content {
+  color: white;
+  background-color: #570000;
+}
+
+.entry .entry-content > *, .entry .entry-summary > * {
+  margin: 32px 0;
+  background-color: darkred;
+  color: white;
+}
+
+p.has-background.has-drop-cap.has-small-font-size {
+  color: darkred;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
