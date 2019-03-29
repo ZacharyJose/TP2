@@ -305,6 +305,18 @@ body.page .main-navigation {
 }
 
 .main-navigation ul.sub-menu.hidden-links {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background-color: #570000;
+}
+
+.main-navigation ul.sub-menu.hidden-links:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   background-color: #570000;
 }
 
@@ -613,6 +625,38 @@ body.page .main-navigation {
           transition-duration: 1s;
   -webkit-transform: scale(2.5);
           transform: scale(2.5);
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-333:hover {
+  background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-334:hover {
+  background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-335:hover {
+  background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-336:hover {
+  background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-337:hover {
+  background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-338:hover {
+  background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-339:hover {
+  background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-340:hover {
+  background-color: darkred;
 }
 
 /*--------------------------------------------------------------

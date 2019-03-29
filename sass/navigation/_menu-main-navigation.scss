@@ -250,10 +250,16 @@
 	 * selectors don’t get ignored if a browser doesn’t recognize it
 	 */
 	ul.sub-menu.hidden-links {
-
+		transform: scale(1);
+		transition-duration: 1s;
 		background-color: #570000;
 	}
-
+	
+	ul.sub-menu.hidden-links:hover {
+		transform: scale(2);
+		transition-duration: 1s;
+		background-color: #570000;
+	}
 
 	.main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu {
 		display: block;
@@ -522,3 +528,35 @@
 	
 }
 
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-333:hover {
+	background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-334:hover {
+	background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-335:hover {
+	background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-336:hover {
+	background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-337:hover {
+	background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-338:hover {
+	background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-339:hover {
+	background-color: darkred;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-64.current_page_item.menu-item-340:hover {
+	background-color: darkred;
+}
