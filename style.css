@@ -730,6 +730,10 @@ body {
   grid-gap: 10px;
   margin: 2% 2% 0% 15%;
   font-size: 1.5em;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*.session-1 { background-color: #1c7742; color : #fff; }
@@ -900,6 +904,10 @@ body {
 }
 
 .imprint {
+  display: none;
+}
+
+.post-navigation .nav-links {
   display: none;
 }
 
