@@ -101,10 +101,10 @@ body.page .main-navigation {
   background: transparent;
   color: inherit;
   cursor: pointer;
-  -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
+  -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+  transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -797,42 +797,50 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-/*.session-1 { background-color: #1c7742; color : #fff; }
+  /*.session-1 { background-color: #1c7742; color : #fff; }
     .session-2 { background-color: #d3a145; color : #aaa;}
     .session-3 { background-color: #2f2f97; color : #fff;}
     .session-4 { background-color: #948b36; color : #fff;}
     .session-5 { background-color: #97173d; color : #fff;}
     .session-6 { background-color: #251b04; color : #fff;}*/
-h3, h4 {
+}
+
+.liste-cours h3, .liste-cours h4 {
   padding: 5px;
 }
 
 @media only screen and (min-width: 600px) {
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  font-size: 1.3em;
+  .liste-cours {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    font-size: 1.3em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  font-size: 1em;
+  .liste-cours {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 1168px) {
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  .liste-cours {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
 }
 
 @media only screen and (min-width: 1379px) {
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
+  .liste-cours {
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
 }
 
 .entry-title h3 {
