@@ -596,6 +596,20 @@ body.page .main-navigation {
   }
 }
 
+.submenu-expand.main-menu-more-toggle {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.submenu-expand.main-menu-more-toggle:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+}
+
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/

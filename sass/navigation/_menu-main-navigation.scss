@@ -504,3 +504,16 @@
 		opacity: 1;
 	}
 }
+
+.submenu-expand.main-menu-more-toggle {
+	transition-duration: 1s;
+	transform: scale(1.5);
+
+}
+
+.submenu-expand.main-menu-more-toggle:hover {
+	transition-duration: 1s;
+	transform: scale(2.5);
+	
+}
+
