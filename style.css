@@ -313,8 +313,8 @@ body.page .main-navigation {
 }
 
 .main-navigation ul.sub-menu.hidden-links:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   background-color: #570000;
@@ -941,9 +941,9 @@ body {
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#174960), to(#53788A));
-  background-image: linear-gradient(#174960, #53788A);
+  background-color: black;
   text-align: center;
+  font-family: Arial;
 }
 
 .menuaccueil {
@@ -999,7 +999,7 @@ body {
 }
 
 p.has-background.has-drop-cap.has-small-font-size {
-  color: darkred;
+  color: white;
 }
 
 .wp-block-media-text.is-stacked-on-mobile {
@@ -1150,9 +1150,15 @@ figure.wp-block-image:hover {
           animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
 }
 
+.site-description {
+  color: white;
+}
+
+.entry-header {
+  color: white;
+}
+
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6e0e0), to(#610101));
-  /* background-image: linear-gradient(#174960, #c2ebff); */
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

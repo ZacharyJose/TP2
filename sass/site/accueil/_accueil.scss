@@ -5,8 +5,9 @@
 
 
 body {
-    background-image: linear-gradient(#174960, #53788A);
+    background-color: black;
     text-align: center;
+    font-family: Arial;
 }
 
 .menuaccueil {
@@ -71,9 +72,7 @@ body {
 
 
 p.has-background.has-drop-cap.has-small-font-size {
-
-    
-    color: darkred;
+    color: white;
 }
 
 .wp-block-media-text.is-stacked-on-mobile {
