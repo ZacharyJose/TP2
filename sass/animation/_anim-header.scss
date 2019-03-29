@@ -68,7 +68,7 @@
 
 .anim1 {
     transform-origin: top center;
-    animation: anim1 2s, anim2 1s 2s  ;
+    animation: anim1 4s, anim2 4s 4s  ;
 
     animation-fill-mode: forwards;
     
@@ -77,7 +77,7 @@
 .anim3 {
     // animation-fill-mode: forwards;
     transform-origin: top center;
-    animation: anim3 1s forwards, anim2 1s 1s forwards;
+    animation: anim3 4s forwards, anim2 4s 4s forwards;
     animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
 }
 

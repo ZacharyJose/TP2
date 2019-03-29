@@ -1058,8 +1058,8 @@ body {
 .anim1 {
   -webkit-transform-origin: top center;
           transform-origin: top center;
-  -webkit-animation: anim1 2s, anim2 1s 2s;
-          animation: anim1 2s, anim2 1s 2s;
+  -webkit-animation: anim1 4s, anim2 4s 4s;
+          animation: anim1 4s, anim2 4s 4s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -1067,8 +1067,8 @@ body {
 .anim3 {
   -webkit-transform-origin: top center;
           transform-origin: top center;
-  -webkit-animation: anim3 1s forwards, anim2 1s 1s forwards;
-          animation: anim3 1s forwards, anim2 1s 1s forwards;
+  -webkit-animation: anim3 4s forwards, anim2 4s 4s forwards;
+          animation: anim3 4s forwards, anim2 4s 4s forwards;
   -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
           animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
 }
