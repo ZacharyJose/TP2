@@ -690,28 +690,28 @@ body.page .main-navigation {
 ## cours
 --------------------------------------------------------------*/
 .domaine-1 {
-  background-color: darkorange;
+  background-color: #6b0000;
   color: white;
 }
 
 .domaine-2 {
-  background-color: #874a;
+  background-color: #8e0505;
   color: white;
 }
 
 .domaine-3 {
-  background-color: #242623;
+  background-color: #ba0000;
   color: white;
 }
 
 .domaine-4 {
-  background-color: darkmagenta;
+  background-color: #e00404;
   color: white;
 }
 
 .domaine-5 {
-  background-color: cyan;
-  color: black;
+  background-color: #ff0000;
+  color: white;
 }
 
 #liste-cours {
@@ -719,7 +719,7 @@ body.page .main-navigation {
 }
 
 body {
-  background-color: #0f4056;
+  background-color: #8e0000;
 }
 
 .liste-cours {
@@ -803,13 +803,45 @@ h3, h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.entry-content:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blocks-gallery-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
 
-.entry-content:hover {
+.blocks-gallery-item:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1031,5 +1063,11 @@ body {
           animation: anim3 1s forwards, anim2 1s 1s forwards;
   -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
           animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6e0e0), to(#610101));
+  /* background-image: linear-gradient(#174960, #c2ebff); */
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
