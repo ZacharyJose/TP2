@@ -14,4 +14,4 @@ Les principales modifications des animations se sont faits dans les fichiers _an
 
 # Capture d'écran
 
-![screenshots of app](.Capture.PNG)
+![screenshots of app](./Capture.PNG)
