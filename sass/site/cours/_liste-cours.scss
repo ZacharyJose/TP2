@@ -1,8 +1,8 @@
-.domaine-1 { background-color: #6b0000; color : white; }
-.domaine-2 { background-color: #8e0505; color : white;}
-.domaine-3 { background-color: #ba0000; color : white;}
-.domaine-4 { background-color: #e00404; color : white;}
-.domaine-5 { background-color: #ff0000; color : white;}
+.domaine-1 { background-color: #270000; color : white; }
+.domaine-2 { background-color: #803d3d; color : white;}
+.domaine-3 { background-color: #cc1414; color : white;}
+.domaine-4 { background-color: #6d1a1a; color : white;}
+.domaine-5 { background-color: #f35f5f; color : white;}
 
 #liste-cours {
       margin-bottom:0 ;
@@ -77,6 +77,21 @@ body {
         justify-content: center;
         display: flex;
 
+    }
+
+    a {
+        transition: color 110ms ease-in-out;
+        color: #ffffff;
+        transition-duration: 1s;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: black;
+        transition-duration: 1s;
     }
 
     .entry-content{

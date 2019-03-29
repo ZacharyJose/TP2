@@ -4,7 +4,7 @@
 @keyframes anim1 {
     from {
         transform: translateY(-100vh)  rotateX(0deg);
-         animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
+         animation-timing-function: cubic-bezier(.14,0,.21,.99);
     }
  
     100% {
@@ -16,19 +16,10 @@
 @keyframes anim2 {
 
    0% {
-        transform: rotateX(350deg); 
-        animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
+        transform: rotateX(-350deg); 
+        animation-timing-function: cubic-bezier(.14,0,.21,.99);
     }
-    60% {
-        transform:  rotateX(-40deg);
-    }
-
-   
-
-    99% {
-            transform:  rotateX(360deg);
-        }
-
+  
     100% {
         transform:  rotateX(0deg);
     }

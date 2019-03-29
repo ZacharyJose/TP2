@@ -753,27 +753,27 @@ li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.curre
 ## cours
 --------------------------------------------------------------*/
 .domaine-1 {
-  background-color: #6b0000;
+  background-color: #270000;
   color: white;
 }
 
 .domaine-2 {
-  background-color: #8e0505;
+  background-color: #803d3d;
   color: white;
 }
 
 .domaine-3 {
-  background-color: #ba0000;
+  background-color: #cc1414;
   color: white;
 }
 
 .domaine-4 {
-  background-color: #e00404;
+  background-color: #6d1a1a;
   color: white;
 }
 
 .domaine-5 {
-  background-color: #ff0000;
+  background-color: #f35f5f;
   color: white;
 }
 
@@ -862,6 +862,24 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+a {
+  -webkit-transition: color 110ms ease-in-out;
+  transition: color 110ms ease-in-out;
+  color: #ffffff;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .entry-content {
@@ -978,6 +996,14 @@ body {
   display: none;
 }
 
+nav.navigation.pagination {
+  display: none;
+}
+
+.page-header {
+  display: none;
+}
+
 .post-navigation .nav-links {
   display: none;
 }
@@ -1037,8 +1063,8 @@ figure.wp-block-image:hover {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
             transform: translateY(-100vh) rotateX(0deg);
-    -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
-            animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0.21, 0.99);
+            animation-timing-function: cubic-bezier(0.14, 0, 0.21, 0.99);
   }
   100% {
     -webkit-transform: translateY(0) rotateX(0deg);
@@ -1050,8 +1076,8 @@ figure.wp-block-image:hover {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
             transform: translateY(-100vh) rotateX(0deg);
-    -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
-            animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0.21, 0.99);
+            animation-timing-function: cubic-bezier(0.14, 0, 0.21, 0.99);
   }
   100% {
     -webkit-transform: translateY(0) rotateX(0deg);
@@ -1061,18 +1087,10 @@ figure.wp-block-image:hover {
 
 @-webkit-keyframes anim2 {
   0% {
-    -webkit-transform: rotateX(350deg);
-            transform: rotateX(350deg);
-    -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
-            animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
-  }
-  60% {
-    -webkit-transform: rotateX(-40deg);
-            transform: rotateX(-40deg);
-  }
-  99% {
-    -webkit-transform: rotateX(360deg);
-            transform: rotateX(360deg);
+    -webkit-transform: rotateX(-350deg);
+            transform: rotateX(-350deg);
+    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0.21, 0.99);
+            animation-timing-function: cubic-bezier(0.14, 0, 0.21, 0.99);
   }
   100% {
     -webkit-transform: rotateX(0deg);
@@ -1082,18 +1100,10 @@ figure.wp-block-image:hover {
 
 @keyframes anim2 {
   0% {
-    -webkit-transform: rotateX(350deg);
-            transform: rotateX(350deg);
-    -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
-            animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
-  }
-  60% {
-    -webkit-transform: rotateX(-40deg);
-            transform: rotateX(-40deg);
-  }
-  99% {
-    -webkit-transform: rotateX(360deg);
-            transform: rotateX(360deg);
+    -webkit-transform: rotateX(-350deg);
+            transform: rotateX(-350deg);
+    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0.21, 0.99);
+            animation-timing-function: cubic-bezier(0.14, 0, 0.21, 0.99);
   }
   100% {
     -webkit-transform: rotateX(0deg);
