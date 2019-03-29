@@ -947,6 +947,21 @@ p.has-background.has-drop-cap.has-small-font-size {
           transition-duration: 1s;
 }
 
+figure.wp-block-image {
+  -webkit-transition: all 1.3s ease-in-out 0s;
+  transition: all 1.3s ease-in-out 0s;
+}
+
+figure.wp-block-image:hover {
+  cursor: default;
+  -webkit-transform: rotate(360deg) scale(1.5);
+          transform: rotate(360deg) scale(1.5);
+  -webkit-transition: all 1.3s ease-in-out 0s;
+  transition: all 1.3s ease-in-out 0s;
+  -webkit-box-shadow: 2px 2px;
+          box-shadow: 2px 2px;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);

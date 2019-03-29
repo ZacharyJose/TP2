@@ -88,3 +88,15 @@ p.has-background.has-drop-cap.has-small-font-size {
     transform: scale(1.2);
     transition-duration: 1s;
 }
+
+figure.wp-block-image {
+    
+    transition: all 1.3s ease-in-out 0s;
+}
+
+figure.wp-block-image:hover {
+    cursor: default;
+    transform: rotate(360deg) scale(1.5);
+    transition: all 1.3s ease-in-out 0s;
+    box-shadow: 2px 2px;
+}
