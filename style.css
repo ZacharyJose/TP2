@@ -931,6 +931,22 @@ p.has-background.has-drop-cap.has-small-font-size {
   color: darkred;
 }
 
+.wp-block-media-text.is-stacked-on-mobile {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  border-radius: 0%;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.wp-block-media-text.is-stacked-on-mobile:hover {
+  border-radius: 30%;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
